@@ -33,9 +33,9 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 
 #androidx-navigation-compose = { group = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlinSerializationVersion" }
-kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json" , version.ref = "kotlinSerialization" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.8.0" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationComposeVersion" }
-kotlin-parcelize = { module = "org.jetbrains.kotlin.plugin.parcelize:org.jetbrains.kotlin.plugin.parcelize.gradle.plugin", version.ref = "kotlinParcelize" }
+#kotlin-parcelize = { group = "org.jetbrains.kotlin.plugin.parcelize", name = "org.jetbrains.kotlin.plugin.parcelize.gradle.plugin", version.ref = "kotlinParcelize" }
 
 
 

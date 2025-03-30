@@ -57,7 +57,6 @@ dependencies {
     implementation(libs.kotlin.serialization)
 
     implementation(libs.navigation.compose)
-    implementation(libs.kotlin.parcelize)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

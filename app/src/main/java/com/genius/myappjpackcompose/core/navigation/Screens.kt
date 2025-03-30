@@ -15,6 +15,9 @@ object Home
 object Details
 
 @Serializable
+object Items
+
+@Serializable
 data class Detail(val name:String)
 
 @Serializable
